@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import pickle
 
 # Load model
-Coustomer_Churn_Pre = '/Users/mohammedmahmood/Desktop/Final Project /Coustomer_Churn_Prediction.sav'
+Coustomer_Churn_Pre = 'Coustomer_Churn_Prediction.sav'
 model = pickle.load(open(Coustomer_Churn_Pre, 'rb'))
 
 
